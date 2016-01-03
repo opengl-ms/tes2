@@ -25,11 +25,12 @@ on April 3, 2012), it already can display an RDP session right now.
 setup-all.sh
 ```
 **Unattended install script**
-* [-f] Force to run as root user
-* [-i] Install all dependency packages
-* [-d] Remove conflicting packages 
 ```sh
 ./setup-all.sh -f -i -d
 ```
+* Force to run as root user (-f)
+* Install all dependency packages (-i)
+* Remove conflicting packages (-d)
 
+### More Details ###
 For addition details on the setup script and webconnect prereqs consult wsgate/README.
